@@ -3,7 +3,7 @@
 # Define the variables for the test configurations
 thread_models=("Platform" "Virtual")
 state_sizes=(5 100)
-state_types=("Synchronized" "Unsynchronized")
+state_types=("Null" "Synchronized" "Unsynchronized")
 thread_counts=(1 8 40)
 transitions=100000000
 
