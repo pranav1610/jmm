@@ -2,247 +2,247 @@
 Testing: Model=Platform, Size=5, State=Synchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Platform 5 Synchronized 1 100000000
-Total real time 1.14460 s
-Average real swap time 11.4460 ns
+Total real time 3.41262 s
+Average real swap time 34.1262 ns
 
-real	0m1.217s
-user	0m1.214s
-sys	0m0.021s
+real	0m3.529s
+user	0m3.463s
+sys	0m0.060s
 
 Testing: Model=Platform, Size=5, State=Synchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Platform 5 Synchronized 8 100000000
-Total real time 7.75275 s
-Average real swap time 620.220 ns
+Total real time 3.39034 s
+Average real swap time 271.227 ns
 
-real	0m7.825s
-user	0m20.644s
-sys	0m1.239s
+real	0m3.497s
+user	0m3.755s
+sys	0m0.165s
 
 Testing: Model=Platform, Size=5, State=Synchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Platform 5 Synchronized 40 100000000
-Total real time 10.2125 s
-Average real swap time 4084.99 ns
+Total real time 4.60701 s
+Average real swap time 1842.80 ns
 
-real	0m10.281s
-user	0m26.078s
-sys	0m1.651s
+real	0m4.728s
+user	0m6.341s
+sys	0m0.150s
 
 Testing: Model=Platform, Size=5, State=Unsynchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Platform 5 Unsynchronized 1 100000000
-Total real time 0.661299 s
-Average real swap time 6.61299 ns
+Total real time 1.37561 s
+Average real swap time 13.7561 ns
 
-real	0m0.731s
-user	0m0.730s
-sys	0m0.020s
+real	0m1.495s
+user	0m1.416s
+sys	0m0.058s
 
 Testing: Model=Platform, Size=5, State=Unsynchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Platform 5 Unsynchronized 8 100000000
-Total real time 0.324671 s
-Average real swap time 25.9737 ns
-output sum mismatch (-48189 != 0)
+Total real time 2.03767 s
+Average real swap time 163.014 ns
+output sum mismatch (23721 != 0)
 
-real	0m0.392s
-user	0m2.403s
-sys	0m0.024s
+real	0m2.174s
+user	0m5.851s
+sys	0m0.064s
 
 Testing: Model=Platform, Size=5, State=Unsynchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Platform 5 Unsynchronized 40 100000000
-Total real time 0.382122 s
-Average real swap time 152.849 ns
-output sum mismatch (-29632 != 0)
+Total real time 4.25764 s
+Average real swap time 1703.06 ns
+output sum mismatch (-88155 != 0)
 
-real	0m0.450s
-user	0m2.893s
-sys	0m0.028s
+real	0m4.381s
+user	0m14.647s
+sys	0m0.119s
 
 Testing: Model=Platform, Size=100, State=Synchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Platform 100 Synchronized 1 100000000
-Total real time 1.14346 s
-Average real swap time 11.4346 ns
+Total real time 3.42240 s
+Average real swap time 34.2240 ns
 
-real	0m1.212s
-user	0m1.218s
-sys	0m0.020s
+real	0m3.563s
+user	0m3.440s
+sys	0m0.084s
 
 Testing: Model=Platform, Size=100, State=Synchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Platform 100 Synchronized 8 100000000
-Total real time 5.16734 s
-Average real swap time 413.387 ns
+Total real time 3.70274 s
+Average real swap time 296.219 ns
 
-real	0m5.234s
-user	0m8.123s
-sys	0m2.355s
+real	0m3.830s
+user	0m4.214s
+sys	0m0.231s
 
 Testing: Model=Platform, Size=100, State=Synchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Platform 100 Synchronized 40 100000000
-Total real time 4.83269 s
-Average real swap time 1933.07 ns
+Total real time 3.90580 s
+Average real swap time 1562.32 ns
 
-real	0m4.901s
-user	0m6.130s
-sys	0m2.879s
+real	0m4.026s
+user	0m4.572s
+sys	0m0.168s
 
 Testing: Model=Platform, Size=100, State=Unsynchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Platform 100 Unsynchronized 1 100000000
-Total real time 0.685697 s
-Average real swap time 6.85697 ns
+Total real time 1.60642 s
+Average real swap time 16.0642 ns
 
-real	0m0.755s
-user	0m0.760s
-sys	0m0.019s
+real	0m1.727s
+user	0m1.582s
+sys	0m0.103s
 
 Testing: Model=Platform, Size=100, State=Unsynchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Platform 100 Unsynchronized 8 100000000
-Total real time 1.16987 s
-Average real swap time 93.5899 ns
-output sum mismatch (215 != 0)
+Total real time 3.69508 s
+Average real swap time 295.606 ns
+output sum mismatch (-22848 != 0)
 
-real	0m1.238s
-user	0m8.792s
-sys	0m0.034s
+real	0m3.833s
+user	0m12.975s
+sys	0m0.083s
 
 Testing: Model=Platform, Size=100, State=Unsynchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Platform 100 Unsynchronized 40 100000000
-Total real time 1.25784 s
-Average real swap time 503.138 ns
-output sum mismatch (-5487 != 0)
+Total real time 3.55265 s
+Average real swap time 1421.06 ns
+output sum mismatch (-670 != 0)
 
-real	0m1.325s
-user	0m9.379s
-sys	0m0.044s
+real	0m3.675s
+user	0m12.855s
+sys	0m0.107s
 
 Testing: Model=Virtual, Size=5, State=Synchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Virtual 5 Synchronized 1 100000000
-Total real time 1.14350 s
-Average real swap time 11.4350 ns
+Total real time 5.50301 s
+Average real swap time 55.0301 ns
 
-real	0m1.218s
-user	0m1.219s
-sys	0m0.020s
+real	0m5.720s
+user	0m3.301s
+sys	0m0.327s
 
 Testing: Model=Virtual, Size=5, State=Synchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Virtual 5 Synchronized 8 100000000
-Total real time 7.91542 s
-Average real swap time 633.234 ns
+Total real time 5.11017 s
+Average real swap time 408.813 ns
 
-real	0m7.988s
-user	0m21.015s
-sys	0m1.143s
+real	0m5.908s
+user	0m4.340s
+sys	0m0.065s
 
 Testing: Model=Virtual, Size=5, State=Synchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Virtual 5 Synchronized 40 100000000
-Total real time 7.36497 s
-Average real swap time 2945.99 ns
+Total real time 8.82224 s
+Average real swap time 3528.90 ns
 
-real	0m7.437s
-user	0m18.283s
-sys	0m1.560s
+real	0m9.773s
+user	0m4.074s
+sys	0m0.101s
 
 Testing: Model=Virtual, Size=5, State=Unsynchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Virtual 5 Unsynchronized 1 100000000
-Total real time 0.709791 s
-Average real swap time 7.09791 ns
+Total real time 3.84528 s
+Average real swap time 38.4528 ns
 
-real	0m0.784s
-user	0m0.790s
-sys	0m0.020s
+real	0m5.379s
+user	0m1.463s
+sys	0m0.054s
 
 Testing: Model=Virtual, Size=5, State=Unsynchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Virtual 5 Unsynchronized 8 100000000
-Total real time 0.341656 s
-Average real swap time 27.3325 ns
-output sum mismatch (-44159 != 0)
+Total real time 2.08580 s
+Average real swap time 166.864 ns
+output sum mismatch (239 != 0)
 
-real	0m0.413s
-user	0m2.446s
-sys	0m0.024s
+real	0m2.221s
+user	0m6.515s
+sys	0m0.048s
 
 Testing: Model=Virtual, Size=5, State=Unsynchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Virtual 5 Unsynchronized 40 100000000
-Total real time 0.330709 s
-Average real swap time 132.284 ns
-output sum mismatch (-16604 != 0)
+Total real time 2.04288 s
+Average real swap time 817.151 ns
+output sum mismatch (66894 != 0)
 
-real	0m0.402s
-user	0m2.507s
-sys	0m0.023s
+real	0m2.152s
+user	0m6.781s
+sys	0m0.040s
 
 Testing: Model=Virtual, Size=100, State=Synchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Virtual 100 Synchronized 1 100000000
-Total real time 1.14438 s
-Average real swap time 11.4438 ns
+Total real time 3.24662 s
+Average real swap time 32.4662 ns
 
-real	0m1.216s
-user	0m1.223s
-sys	0m0.020s
+real	0m3.354s
+user	0m3.338s
+sys	0m0.045s
 
 Testing: Model=Virtual, Size=100, State=Synchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Virtual 100 Synchronized 8 100000000
-Total real time 7.99808 s
-Average real swap time 639.846 ns
+Total real time 4.08170 s
+Average real swap time 326.536 ns
 
-real	0m8.069s
-user	0m21.398s
-sys	0m1.329s
+real	0m4.261s
+user	0m3.181s
+sys	0m0.045s
 
 Testing: Model=Virtual, Size=100, State=Synchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Virtual 100 Synchronized 40 100000000
-Total real time 8.02214 s
-Average real swap time 3208.86 ns
+Total real time 4.76716 s
+Average real swap time 1906.86 ns
 
-real	0m8.095s
-user	0m21.871s
-sys	0m1.197s
+real	0m5.735s
+user	0m4.138s
+sys	0m0.034s
 
 Testing: Model=Virtual, Size=100, State=Unsynchronized, Threads=1
 
 time timeout 3600 java UnsafeMemory Virtual 100 Unsynchronized 1 100000000
-Total real time 0.681534 s
-Average real swap time 6.81534 ns
+Total real time 4.36661 s
+Average real swap time 43.6661 ns
 
-real	0m0.755s
-user	0m0.760s
-sys	0m0.019s
+real	0m5.046s
+user	0m1.711s
+sys	0m0.038s
 
 Testing: Model=Virtual, Size=100, State=Unsynchronized, Threads=8
 
 time timeout 3600 java UnsafeMemory Virtual 100 Unsynchronized 8 100000000
-Total real time 1.14938 s
-Average real swap time 91.9503 ns
-output sum mismatch (-8688 != 0)
+Total real time 2.49105 s
+Average real swap time 199.284 ns
+output sum mismatch (-3696 != 0)
 
-real	0m1.221s
-user	0m8.196s
-sys	0m0.037s
+real	0m3.241s
+user	0m2.833s
+sys	0m0.046s
 
 Testing: Model=Virtual, Size=100, State=Unsynchronized, Threads=40
 
 time timeout 3600 java UnsafeMemory Virtual 100 Unsynchronized 40 100000000
-Total real time 1.15912 s
-Average real swap time 463.647 ns
-output sum mismatch (-12828 != 0)
+Total real time 3.81377 s
+Average real swap time 1525.51 ns
+output sum mismatch (3354 != 0)
 
-real	0m1.233s
-user	0m8.421s
-sys	0m0.046s
+real	0m4.783s
+user	0m3.281s
+sys	0m0.059s
